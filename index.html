@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de moedas - Lucas Jachetta</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de moedas
+  </h1>
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+
+  <label for="moeda">Insira o valor da moeda desejada e aperte o botão para realizar a conversão</label><br>
+
+  <input type="number" id="valor" size="2" /><br>
+
+  <!-- Botão Dolar para Real -->
+  <button type="submit" onclick="ConverterDolar()" id: "botaoDolar">Converter Dólar para Real</button>
+
+  <!-- Botão Euro para Real -->
+  <button type="submit" onclick="ConverterEuro()" id: "botaoEuro">Converter Euro para Real</button>
+
+  <!-- Botão Bitcoin para Real -->
+  <button type="submit" onclick="ConverterBitcoin()" id: "botaoBitcoin">Converter Bitcoin para Real</button>
+
+  <!-- Botão Real para Dolar -->
+  <button type="submit" onclick="ConverterRealDolar()" id: "botaoRealDolar">Converter Real para Dólar</button>
+
+  <!-- Botão Real para Euro -->
+  <button type="submit" onclick="ConverterRealEuro()" id: "botaoRealEuro">Converter Real para Euro</button>
+
+  <!-- Botão Real para Dolar -->
+  <button type="submit" onclick="ConverterRealBitcoin()" id: "botaoRealBitcoin">Converter Real para Bitcoin</button>
+
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
